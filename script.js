@@ -9,3 +9,7 @@ function home() {
 function soulfull_redirect() {
   location.replace("https://www.soulfull.ca/")
 }
+
+function bake_redirect() {
+  location.replace("https://heathersbakery.ca/")
+}

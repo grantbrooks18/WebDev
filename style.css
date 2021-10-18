@@ -21,7 +21,7 @@ body, html {
   position: absolute;
   top: 50%;
   left: 200px;
-  font-family: Helvetica;
+  font-family: Tahoma,sans-serif;
   color: white;
 
   position: relative;
@@ -69,7 +69,8 @@ body, html {
 
 /* Content */
 .content {
-  background-color: white;
-  padding: 10px;
 
+  background-color: white;
+  padding: 50px;
+  cursor: pointer;
 }
