@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 1%;
+  text-align: left;
+  background: #0072E6;
+  color: white;
+  font-size: 12px;
+}
+
+.header_button {
+  background-color:  #6699ff;
+  border: 2px solid #80bfff ;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.header_button:hover {
+  background-color: #80bfff;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  float: right;
+  align-self: baseline;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Page Content */
+.content {padding:20px;}
