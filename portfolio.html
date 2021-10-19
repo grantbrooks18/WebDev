@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <title> Brooks Consulting</title>
   </head>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <body>
 
     <div class="main-image">
@@ -19,26 +19,30 @@
     <div class="row">
   <div class="column">
     <div class="content">
-      <img src="soul.jpg" style="width:100%" onclick="soulfull_redirect()">
+      <img src="soul.jpg" style="height:200px" onclick="soulfull_redirect()">
       <h3>Soulful</h3>
       <p>Artisinal Jewellery Store</p>
     </div>
   </div>
   <div class="column" >
     <div class="content">
-      <img src="bckgnd.jpg" alt="Lights" style="width:100%">
+      <img src="bckgnd.jpg" alt="Lights" style="height:200px">
       <h3>Cleaning Service Ltd.</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-      <img src="bake.jpg" style="width:100%" onclick="bake_redirect()">
+      <img src="bake.jpg" style="height:200px" onclick="bake_redirect()">
       <h3>Bakery of Stuff</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
+
+  <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
         <script src="script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </body>
 </html>
