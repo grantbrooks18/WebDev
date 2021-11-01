@@ -1,0 +1,61 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/example.png">
+    <link rel="stylesheet" href="LR_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bank of LR Jenkins</title>
+
+  </head>
+
+  <body onload="welcome_message()">
+
+      <div class="header">
+          <div class="header_button" id="Personal_btn">
+            Personal
+          </div>
+          <div class="header_button" id="comm_btn">
+            Commercial
+          </div>
+          <div class="header_button" id="about_btn">
+            About
+          </div>
+          <div class="header_button" id="contact_btn">
+            Contact
+          </div>
+          </div>
+          <div id="snackbar">Welcome to LR Online Banking!</div>
+          <div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>Account Type</th>
+      <th>Number</th>
+      <th>Balance (CAD)</th>
+    </tr>
+    <tr>
+      <td>Chequing</td>
+      <td id="cell00"></td>
+      <td id="cell01"></td>
+    </tr>
+    <tr>
+      <td>Savings</td>
+      <td id="cell10"></td>
+      <td id="cell11"></td>
+    </tr>
+    <tr>
+      <td>LR Balanced Growth TFSA</td>
+      <td id="cell20"></td>
+      <td id="cell21"></td>
+    </tr>
+  </table>
+</div>
+
+<div class="btn-group">
+  <button>Transfer</button>
+  <button>Deposit</button>
+  <button>Open Account</button>
+</div>
+
+    <script src="LR_script.js"></script>
+  </body>
+</html>
